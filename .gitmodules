@@ -1,0 +1,12 @@
+[submodule "vm_autonomous_dji/src/fiducials"]
+	path = vm_autonomous_dji/src/fiducials
+	url = ../../UbiquityRobotics/fiducials.git
+[submodule "hector_quadrotor"]
+	path = hector_quadrotor
+	url = ../../tu-darmstadt-ros-pkg/hector_quadrotor.git
+[submodule "vm_autonomous_dji/src/pid"]
+	path = vm_autonomous_dji/src/pid
+	url = https://bitbucket.org/AndyZe/pid.git
+[submodule "vm_autonomous_dji/src/teleop_twist_keyboard_cpp"]
+	path = vm_autonomous_dji/src/teleop_twist_keyboard_cpp
+	url = ../../methylDragon/teleop_twist_keyboard_cpp.git
