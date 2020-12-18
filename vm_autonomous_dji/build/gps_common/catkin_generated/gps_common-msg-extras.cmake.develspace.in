@@ -1,0 +1,2 @@
+set(gps_common_MESSAGE_FILES "/home/ethan/hector_drone/src/vm_autonomous_dji/src/gps_common/msg/GPSStatus.msg;/home/ethan/hector_drone/src/vm_autonomous_dji/src/gps_common/msg/GPSFix.msg")
+set(gps_common_SERVICE_FILES "")

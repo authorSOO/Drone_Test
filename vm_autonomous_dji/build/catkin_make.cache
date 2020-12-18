@@ -1,0 +1,2 @@
+ar_track_alvar-melodic-devel/ar_track_alvar:ar_track_alvar-melodic-devel/ar_track_alvar_msgs:fiducials/aruco_detect:fiducials/fiducial_msgs:fiducials/fiducial_slam:fiducials/fiducials:gps_common:gps_umd:gpsd_client:pid:teleop_twist_keyboard_cpp:vm_basic
+-DCATKIN_DEVEL_PREFIX=/home/ethan/hector_drone/src/vm_autonomous_dji/devel -DCMAKE_INSTALL_PREFIX=/home/ethan/hector_drone/src/vm_autonomous_dji/install -G Unix Makefiles

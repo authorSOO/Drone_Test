@@ -1,0 +1,40 @@
+#ifndef __KEYBOARD_CMD__
+#define __KEYBOARD_CMD__
+
+#include <ros/ros.h>
+#include <std_msgs/String.h>
+
+#include <stdio.h>
+#include <string>
+#include <sstream>
+#include <vector>
+
+
+int main(int argc, char *argv[])
+{
+	//init ROS node
+    
+    ros::init(argc,argv,"vm_command_keyboard");
+  	ros::NodeHandle nh;
+	
+
+   ros::Publisher keyboard_pub = nh.advertise<std_msgs::String>("keyboard_command", 1);
+   
+   while (ros::ok())
+   {  
+      /* code for loop body */
+      std_msgs::String msg;
+      getline(std::cin,msg.data);
+      if(msg.data[0]=='\x03')
+      ros::spinOnce();
+      //rate.sleep();
+      keyboard_pub.publish(msg);
+     // loop_rate.sleep();
+   }
+
+	
+	return 0;
+}
+
+
+#endif

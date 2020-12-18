@@ -1,0 +1,8 @@
+prefix=/home/ethan/hector_drone/src/vm_autonomous_dji/install
+
+Name: vm_basic
+Description: Description of vm_basic
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib -lvm_basic
+Requires: actionlib geometry_msgs hector_quadrotor_interface roscpp sensor_msgs tf2_geometry_msgs visualization_msgs std_msgs nav_msgs gps_common tf2_geometry_msgs

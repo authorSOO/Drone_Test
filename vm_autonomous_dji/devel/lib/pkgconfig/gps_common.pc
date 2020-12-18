@@ -1,0 +1,8 @@
+prefix=/home/ethan/hector_drone/src/vm_autonomous_dji/devel
+
+Name: gps_common
+Description: Description of gps_common
+Version: 0.3.2
+Cflags: -I/home/ethan/hector_drone/src/vm_autonomous_dji/devel/include -I/home/ethan/hector_drone/src/vm_autonomous_dji/src/gps_common/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime message_filters nav_msgs roscpp sensor_msgs std_msgs rospy

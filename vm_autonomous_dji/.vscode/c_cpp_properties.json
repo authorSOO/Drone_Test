@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ethan/hector_drone/devel/include",
+                "/home/ethan/hector_quadrotor_tutorial/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/ethan/hector_drone/src/vm_autonomous_dji/src/vm_basic/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang-3.5",
+            "cStandard": "c99",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
